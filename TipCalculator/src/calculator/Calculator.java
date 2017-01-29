@@ -1,7 +1,7 @@
 package calculator;
 
 import vo.TipcalculatorVo;
-
+//
 public class Calculator {
 	private TipcalculatorVo cal = new TipcalculatorVo();
 	private double tipAmount;

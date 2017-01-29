@@ -1,6 +1,14 @@
 package vo;
+//--제약조건--
+//1. 팁은 반드시 퍼센트 단위로 입력받아야 한다. 0.15가 아닌 15로 입력받기
+//2. 센트단위로 반올림해야 한다.
 
-//TipCalculator pseudo code
+
+
+
+
+//--TipCalculator pseudo code--
+
 //TipCalculator
 //	Initialize billAmount to 0
 //	Initialize tip to 0
