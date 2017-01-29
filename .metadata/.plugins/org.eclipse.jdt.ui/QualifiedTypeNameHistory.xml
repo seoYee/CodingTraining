@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="calculator.Run"/>
+<fullyQualifiedTypeName name="calculator.Calculator"/>
+<fullyQualifiedTypeName name="vo.TipcalculatorVo"/>
+<fullyQualifiedTypeName name="vo.UserVo"/>
+<fullyQualifiedTypeName name="java.lang.System"/>
+<fullyQualifiedTypeName name="java.util.Scanner"/>
+</qualifiedTypeNameHistroy>

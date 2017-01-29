@@ -1,0 +1,29 @@
+package calculator;
+
+import vo.TipcalculatorVo;
+
+public class Calculator {
+	TipcalculatorVo calculator;
+	double tipAmount;
+	double tipForCustomer;
+	
+	public double tip(double billAmount, int tipRate){
+		calculator.setBillAmount(billAmount);
+		calculator.setConvertedTipRate(tipRate); 
+		tipAmount= calculator.getBillAmount()*calculator.getConvertedTipRate();
+		
+		if(tipAmount*100-(int)(tipAmount*100)>5){
+			tipForCustomer = (double)((int)(tipAmount*100)+1)/100;
+		}else{
+			tipForCustomer = (double)((int)(tipAmount*100))/100;
+		}
+		return tipForCustomer;
+	}
+	
+	public double totalAmount(double billAmount, int tipRate){
+		double totalAmount;
+		totalAmount = billAmount + tipAmount;
+		
+		return totalAmount;
+	}
+}

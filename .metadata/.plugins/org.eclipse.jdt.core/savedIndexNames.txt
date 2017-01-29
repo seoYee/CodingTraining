@@ -1,0 +1,7 @@
+INDEX VERSION 1.127+/Users/LeeseoYee/Desktop/Programming/CodingTraining/.metadata/.plugins/org.eclipse.jdt.core
+81406232.index
+2989972324.index
+1358415934.index
+2695229598.index
+1074730752.index
+2615499673.index

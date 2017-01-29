@@ -1,0 +1,69 @@
+package vo;
+
+//TipCalculator pseudo code
+//TipCalculator
+//	Initialize billAmount to 0
+//	Initialize tip to 0
+//	Initialize tipRate to 0
+//	Initialize total to 0
+//	
+//	Prompt for billAmount with "What is the bill amount?"
+//	Prompt for tipRate with "What is the tip rate?"
+//	
+//	convert billAmount to a number
+//	convert tipRate to a number
+//	
+//	tip = billAount * (tipRate /100)
+//	round tip up to nearest cent
+//	total = billAmount + tip
+//	
+//	Display "Tip: $" + tip
+//	Display "Total: $" + total
+//End
+
+public class TipcalculatorVo {	
+	double billAmount;
+	double tip;
+	int tipRate;
+	double total;
+	
+	public TipcalculatorVo(double billAmount, int tipRate) {
+		this.billAmount = billAmount;
+		this.tipRate = tipRate;
+	}
+
+	public double getBillAmount() {
+		return billAmount;
+	}
+
+	public void setBillAmount(double billAmount) {
+		this.billAmount = billAmount;
+	}
+
+	public double getTip() {
+		return tip;
+	}
+
+	public void setTip(double tip) {
+		this.tip = tip;
+	}
+
+	public int getTipRate() {
+		return tipRate;
+	}
+
+	public void setTipRate(int tipRate) {
+		this.tipRate = tipRate;
+	}
+
+	public double getTotal() {
+		return total;
+	}
+
+	public void setTotal(double total) {
+		this.total = total;
+	}
+	
+	
+
+}

@@ -1,0 +1,14 @@
+package vo;
+
+public class StringVo {
+	private String string;
+
+	public void setName(String string) {
+		this.string = string;
+	}
+
+	public String getName() {
+		return string;
+	}
+
+}

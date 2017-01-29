@@ -1,0 +1,10 @@
+package calculator;
+
+import vo.TipcalculatorVo;
+
+public class Calculator {
+	TipcalculatorVo calculator = new TipcalculatorVo();
+	
+	
+
+}

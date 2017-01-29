@@ -1,0 +1,14 @@
+package vo;
+
+public class StringVo {
+	private String string;
+
+	public void setString(Scanner string) {
+		this.string = string;
+	}
+
+	public String getString() {
+		return string;
+	}
+
+}

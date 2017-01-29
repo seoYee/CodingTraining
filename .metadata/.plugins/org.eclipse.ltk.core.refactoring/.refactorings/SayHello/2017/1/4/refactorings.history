@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;vo.User&apos; to &apos;UserVo&apos;&#x0A;- Original project: &apos;SayHello&apos;&#x0A;- Original element: &apos;vo.User&apos;&#x0A;- Renamed element: &apos;vo.UserVo&apos;&#x0A;- Update references to refactored element&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;User&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;vo{User.java[User" matchStrategy="1" name="UserVo" qualified="false" references="true" similarDeclarations="false" stamp="1485597240720" textual="false" version="1.0"/>
+</session>
