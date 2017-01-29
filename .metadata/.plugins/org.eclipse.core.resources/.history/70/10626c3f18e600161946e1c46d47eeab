@@ -14,8 +14,6 @@ public class Test {
 		UserVo user = new UserVo();
 		user.setName(scan.nextLine());
 		String msg = "Hello, "+user.getName()+", nice to meet you!";
-		
-		//출력부분
 		System.out.println(msg);
 	}
 
