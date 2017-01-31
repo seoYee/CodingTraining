@@ -1,0 +1,16 @@
+package vo;
+
+import java.util.Scanner;
+
+public class StringVo {
+	private String string;
+
+	public void setString(String string) {
+		this.string = string;
+	}
+
+	public String getString() {
+		return string;
+	}
+
+}

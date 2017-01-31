@@ -38,8 +38,8 @@ public class Run {
 		double tipForCustomer = calculator.getTipForCustomer(billAmount, tipRate);
 		double total = calculator.getTotalAmount(billAmount, tipRate);
 		
-		System.out.println("Tip: $"+tipForCustomer);
-		System.out.println("Total: $"+total);
+		System.out.println("Tip: $"+ String.format("%.2f", tipForCustomer));
+		System.out.println("Total: $"+String.format("%.2f", total));
 		
 	}
 	

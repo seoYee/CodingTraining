@@ -35,11 +35,9 @@ public class TipcalculatorVo {
 	private double convertedTipRate;
 	private double tipAmount;
 	
-	public TipcalculatorVo(){}
-	
 	public TipcalculatorVo(double billAmount, int tipRate) {
 		this.billAmount = billAmount;
-		this.tipRate = tipRate;
+		setTipRate(tipRate);
 	}
 
 	public double getBillAmount() {
@@ -56,9 +54,6 @@ public class TipcalculatorVo {
 
 	public void setTipRate(int tipRate) {
 		this.tipRate = tipRate;
-	}
-	
-	public void setConvertedTipRate(int tipRate){
 		this.convertedTipRate = ((double)tipRate)/100;
 	}
 	

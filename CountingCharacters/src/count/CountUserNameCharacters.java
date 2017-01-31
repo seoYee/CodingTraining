@@ -11,6 +11,7 @@ public class CountUserNameCharacters {
 		System.out.println("What is the input string?");
 		Scanner scan = new Scanner(System.in);
 		string.setString(scan.nextLine());
-		System.out.println(string.getString() + " has " + string.getString().length()+ " characters.");
+		String msg = string.getString() + " has " + string.getString().length()+ " characters.";
+		System.out.println(msg);
 	}
 }

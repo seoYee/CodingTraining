@@ -3,28 +3,21 @@ package calculator;
 import vo.TipcalculatorVo;
 //
 public class Calculator {
-	private TipcalculatorVo cal = new TipcalculatorVo();
 	private double tipAmount;
-	private	double tipForCustomer;
 	private	double totalAmount;
 	
 	public double getTipForCustomer(double billAmount, int tipRate){
+		TipcalculatorVo cal =  new TipcalculatorVo(billAmount, tipRate);
 		cal.setBillAmount(billAmount);
-		cal.setConvertedTipRate(tipRate); 
+		cal.setTipRate(tipRate); 
 		tipAmount= cal.getBillAmount()*cal.getConvertedTipRate();
 		
-		if(tipAmount*100-(int)(tipAmount*100)>0.5){
-			tipForCustomer = (double)((int)(tipAmount*100)+1)/100;
-		}else{
-			tipForCustomer = (double)((int)(tipAmount*100))/100;
-		}
-		return tipForCustomer;
+		return tipAmount;
 	}
 	
-	public double getTotalAmount(double billAmount, int tipRate){
+	public double getTotalAmount(double billAmount, int tipAmount){
 		
-		totalAmount = billAmount + tipForCustomer;
-		totalAmount = ((double)((int)(totalAmount*100)))/100;
+		totalAmount = billAmount + tipAmount/100;
 		return totalAmount;
 	}
 }
